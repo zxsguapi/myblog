@@ -888,3 +888,25 @@ java.lang.NullPointerException: null
 2021-01-04 14:06:03.765  INFO 17248 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : index
 2021-01-04 14:06:03.832  INFO 17248 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
 2021-01-04 14:06:03.839  INFO 17248 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-04 18:01:18.350  INFO 5032 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on PC-202004211249 with PID 5032 (C:\Users\Administrator\Desktop\myblog-mybatis-master\target\classes started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-04 18:01:18.352  INFO 5032 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-01-04 18:01:20.787  INFO 5032 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 2.867 seconds (JVM running for 3.742)
+2021-01-04 18:01:48.293  INFO 5032 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-01-04 18:01:48.479  INFO 5032 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-01-04 18:01:48.865  INFO 5032 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-04 18:01:48.877  INFO 5032 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-04 18:02:04.325  INFO 5032 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.TypeShowController.types', args=[1, -1, {}]}
+2021-01-04 18:02:04.334  INFO 5032 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : types
+2021-01-04 18:02:04.407  INFO 5032 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-04 18:02:04.411  INFO 5032 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-04 18:02:06.081  INFO 5032 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-01-04 18:02:06.088  INFO 5032 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : index
+2021-01-04 18:02:06.158  INFO 5032 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-04 18:02:06.164  INFO 5032 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-04 18:03:45.036  INFO 20992 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on PC-202004211249 with PID 20992 (C:\Users\Administrator\Desktop\myblog-mybatis-master\target\classes started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-04 18:03:45.042  INFO 20992 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-01-04 18:03:47.315  INFO 20992 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 2.648 seconds (JVM running for 3.251)
+2021-01-04 18:03:50.922  INFO 20992 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-01-04 18:03:51.071  INFO 20992 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-01-04 18:03:51.489  INFO 20992 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-04 18:03:51.503  INFO 20992 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Result : index :: blogMessage
