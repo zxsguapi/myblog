@@ -15,7 +15,6 @@ com\star\hander\ControllerExceptionHandler.class
 com\star\entity\User.class
 com\star\queryvo\FirstPageBlog.class
 com\star\dao\FriendLinkDao.class
-com\star\controller\MusicShowController.class
 com\star\dao\BlogDao.class
 com\star\controller\MessageController.class
 com\star\service\Impl\BlogServiceImpl.class

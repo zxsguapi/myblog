@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ONESTAR-关于我</title>
+  <title>关于我</title>
     <link href="../static/images/favicon.ico" th:href="@{/images/me.jpg}" rel="icon" type="image/x-ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
     <link rel="stylesheet" href="../static/css/me.css" th:href="@{/css/me.css}">
@@ -14,14 +14,14 @@
 <nav class="gird-header">
     <div class="ui container">
         <div class="ui inverted secondary stackable menu">
-            <h2 class="ui olive header item" style="font-family: STSong">ONESTAR</h2>
+            <h2 class="ui olive header item" style="font-family: STSong">magua</h2>
             <!--<div class="right m-item item m-mobile-hide">-->
                 <a href="#" th:href="@{/}" class="m-item item m-mobile-hide "><i class="home icon"></i>首页</a>
                 <a href="#" th:href="@{/types/-1}" class="m-item item m-mobile-hide"><i class="clone outline icon"></i>分类</a>
                 <a href="#" th:href="@{/archives}" class="m-item item m-mobile-hide"><i class="clock icon"></i>时间轴</a>
-                <a href="#" th:href="@{/music}" class="m-item item m-mobile-hide"><i class="music icon"></i>音乐盒</a>
+<!--                <a href="#" th:href="@{/music}" class="m-item item m-mobile-hide"><i class="music icon"></i>音乐盒</a>-->
                 <a href="#" th:href="@{/message}" class="m-item item m-mobile-hide"><i class="book icon"></i>留言板</a>
-                <a href="#" th:href="@{/friends}" class="m-item item m-mobile-hide"><i class="pencil alternate icon"></i>友人帐</a>
+<!--                <a href="#" th:href="@{/friends}" class="m-item item m-mobile-hide"><i class="pencil alternate icon"></i>友人帐</a>-->
                 <a href="#" th:href="@{/picture}" class="m-item item m-mobile-hide"><i class="image icon"></i>照片墙</a>
                 <a href="#" th:href="@{/about}" class="active m-item item m-mobile-hide"><i class="info icon"></i>关于我</a>
             <!--</div>-->
@@ -74,11 +74,11 @@
         <div align="center">公众号</div>
     </div>
     <div class="ui wechat-qr flowing popup transition hidden">
-        <img src="../static/images/oneStarWechat.jpg" th:src="@{/images/oneStarWechat.jpg}" alt="" class="ui rounded image" style="width: 110px">
+        <img src="../static/images/wx.jpg" th:src="@{/images/wx.jpg}" alt="" class="ui rounded image" style="width: 110px">
         <div align="center">微信</div>
     </div>
     <div class="ui qq-qr flowing popup transition hidden">
-        <img src="../static/images/qq.jpg" th:src="@{/images/qq.jpg}" alt="" class="ui rounded image" style="width: 110px">
+        <img src="../static/images/qqq.jpg" th:src="@{/images/qqq.jpg}" alt="" class="ui rounded image" style="width: 110px">
         <div align="center">QQ</div>
     </div>
         <hr class="m-margin-top-small" style="width: 30%">
@@ -101,11 +101,11 @@
             <div class="ui orange basic label">
                 <div class="ui images" style="font-size: inherit !important;">
                     <div class="image">
-                        <img src="../static/images/zhifupay.jpg" th:src="@{/images/zhifupay.jpg}" alt="" class="ui rounded bordered image" style="width: 180px">
+                        <img src="../static/images/wx.jpg" th:src="@{/images/wx.jpg}" alt="" class="ui rounded bordered image" style="width: 180px">
                         <div>支付宝</div>
                     </div>
                     <div class="image">
-                        <img src="../static/images/wechatpay.jpg" th:src="@{/images/wechatpay.jpg}" alt="" class="ui rounded bordered image" style="width: 180px">
+                        <img src="../static/images/wx.jpg" th:src="@{/images/wx.jpg}" alt="" class="ui rounded bordered image" style="width: 180px">
                         <div>微信</div>
                     </div>
                 </div>
@@ -130,8 +130,8 @@
                 <!--</div>-->
                 <!--</div>-->
                 <div class="ui inverted link list">
-                    <div href="#" class="m-text-thin">Email：onestarlr@hotmail.com</div>
-                    <div href="#" class="m-text-thin">QQ：316392836</div>
+                    <div href="#" class="m-text-thin">Email：481269335@qq.com</div>
+                    <div href="#" class="m-text-thin">QQ：481269335</div>
                 </div>
             </div>
 
@@ -140,7 +140,7 @@
                     <div class="item">
                         <!--微信二维码-->
                         <div style="font-size: large;font-weight: bold" class="ui inverted m-text-thin m-text-spaced " >关注公众号</div>
-                        <img src="../static/images/oneStar.jpg" th:src="@{/images/oneStar.jpg}"  class="ui m-margin-top rounded image" alt="" style="width: 110px">
+                        <img src="../static/images/wx.jpg" th:src="@{/images/wx.jpg}"  class="ui m-margin-top rounded image" alt="" style="width: 110px">
                     </div>
                 </div>
             </div>
@@ -150,13 +150,13 @@
                     <div class="item">
                         <!--微信二维码-->
                         <div style="font-size: large;font-weight: bold" class="ui inverted m-text-thin m-text-spaced " >问题交流（QQ群）</div>
-                        <img src="../static/images/QQ-question.jpg" th:src="@{/images/QQ-question.jpg}"  class="ui m-margin-top rounded image" alt="" style="width: 110px">
+                        <img src="../static/images/qqq.jpg" th:src="@{/images/qqq.jpg}"  class="ui m-margin-top rounded image" alt="" style="width: 110px">
                     </div>
                 </div>
             </div>
             <!--博客运行时间统计-->
             <div class="four wide column">
-                <div style="font-size: large;font-weight: bold" class="ui inverted  m-text-thin m-text-spaced m-margin-top">客栈信息</div>
+                <div style="font-size: large;font-weight: bold" class="ui inverted  m-text-thin m-text-spaced m-margin-top">网站信息</div>
                 <!--<p id="htmer_time" class="item m-text-thin"></p>-->
                 <div id="blog-message">
                     <div class="ui inverted link list" style="align-content: center;margin-top: 10px" th:fragment="blogMessage">
