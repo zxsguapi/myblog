@@ -1,0 +1,1123 @@
+2021-01-06 13:46:26.486  INFO 20160 --- [main] com.star.MyblogApplicationTests          : Starting MyblogApplicationTests on PC-202004211249 with PID 20160 (started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-06 13:46:26.491  INFO 20160 --- [main] com.star.MyblogApplicationTests          : The following profiles are active: pro
+2021-01-06 13:46:29.534  INFO 20160 --- [main] com.star.MyblogApplicationTests          : Started MyblogApplicationTests in 3.552 seconds (JVM running for 4.742)
+2021-01-06 14:56:18.123  INFO 2488 --- [main] com.star.MyblogApplicationTests          : Starting MyblogApplicationTests on PC-202004211249 with PID 2488 (started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-06 14:56:18.124  INFO 2488 --- [main] com.star.MyblogApplicationTests          : The following profiles are active: pro
+2021-01-06 14:56:21.599  INFO 2488 --- [main] com.star.MyblogApplicationTests          : Started MyblogApplicationTests in 3.976 seconds (JVM running for 5.168)
+2021-01-06 15:16:44.801  INFO 21496 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on PC-202004211249 with PID 21496 (C:\Users\Administrator\Desktop\myblog-mybatis-master\target\classes started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-06 15:16:44.804  INFO 21496 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-01-06 15:16:47.442  INFO 21496 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 3.347 seconds (JVM running for 4.837)
+2021-01-06 15:19:41.801  INFO 21496 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-01-06 15:19:41.964  INFO 21496 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-01-06 15:19:42.341  INFO 21496 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 15:19:42.350  INFO 21496 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-06 15:19:53.501  INFO 21496 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[68, {}]}
+2021-01-06 15:19:53.544  INFO 21496 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : blog
+2021-01-06 15:19:53.994  INFO 21496 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 15:19:53.999  INFO 21496 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-06 15:19:54.114  INFO 21496 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[68, {}]}
+2021-01-06 15:19:54.121  INFO 21496 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Result : blog :: commentList
+2021-01-06 15:22:36.411  INFO 17448 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on PC-202004211249 with PID 17448 (C:\Users\Administrator\Desktop\myblog-mybatis-master\target\classes started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-06 15:22:36.416  INFO 17448 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-01-06 15:22:39.061  INFO 17448 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 3.164 seconds (JVM running for 4.025)
+2021-01-06 15:22:40.273  INFO 17448 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[68, {}]}
+2021-01-06 15:22:40.459  INFO 17448 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : blog
+2021-01-06 15:22:40.996  INFO 17448 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 15:22:41.011  INFO 17448 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-06 15:22:41.116  INFO 17448 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[68, {}]}
+2021-01-06 15:22:41.123  INFO 17448 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Result : blog :: commentList
+2021-01-06 15:22:42.646  INFO 17448 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[68, {}]}
+2021-01-06 15:22:42.656  INFO 17448 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Result : blog
+2021-01-06 15:22:42.974  INFO 17448 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 15:22:42.982  INFO 17448 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-06 15:22:43.065  INFO 17448 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[68, {}]}
+2021-01-06 15:22:43.067  INFO 17448 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : blog :: commentList
+2021-01-06 15:22:47.870  INFO 17448 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[68, {}]}
+2021-01-06 15:22:47.884  INFO 17448 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : blog
+2021-01-06 15:22:48.253  INFO 17448 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 15:22:48.261  INFO 17448 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-06 15:22:48.331  INFO 17448 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[68, {}]}
+2021-01-06 15:22:48.333  INFO 17448 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Result : blog :: commentList
+2021-01-06 15:22:51.912  INFO 17448 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[68, {}]}
+2021-01-06 15:22:51.923  INFO 17448 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Result : blog
+2021-01-06 15:22:52.218  INFO 17448 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 15:22:52.223  INFO 17448 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-06 15:22:52.284  INFO 17448 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[68, {}]}
+2021-01-06 15:22:52.286  INFO 17448 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : blog :: commentList
+2021-01-06 15:23:30.094  INFO 17448 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[68, {}]}
+2021-01-06 15:23:30.105  INFO 17448 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : blog
+2021-01-06 15:23:30.466  INFO 17448 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 15:23:30.475  INFO 17448 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-06 15:23:30.523  INFO 17448 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[68, {}]}
+2021-01-06 15:23:30.525  INFO 17448 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Result : blog :: commentList
+2021-01-06 15:23:53.456  INFO 17448 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[68, {}]}
+2021-01-06 15:23:53.480  INFO 17448 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Result : blog
+2021-01-06 15:23:53.848  INFO 17448 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 15:23:53.853  INFO 17448 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-06 15:23:53.924  INFO 17448 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[68, {}]}
+2021-01-06 15:23:53.929  INFO 17448 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : blog :: commentList
+2021-01-06 15:23:59.975  INFO 17448 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[68, {}]}
+2021-01-06 15:23:59.987  INFO 17448 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : blog
+2021-01-06 15:24:00.294  INFO 17448 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 15:24:00.305  INFO 17448 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-06 15:24:00.367  INFO 17448 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[68, {}]}
+2021-01-06 15:24:00.372  INFO 17448 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Result : blog :: commentList
+2021-01-06 15:24:11.089  INFO 17448 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[68, {}]}
+2021-01-06 15:24:11.104  INFO 17448 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : blog
+2021-01-06 15:24:11.366  INFO 17448 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 15:24:11.370  INFO 17448 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-06 15:24:11.462  INFO 17448 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[68, {}]}
+2021-01-06 15:24:11.465  INFO 17448 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : blog :: commentList
+2021-01-06 15:24:13.345  INFO 17448 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[68, {}]}
+2021-01-06 15:24:13.358  INFO 17448 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Result : blog
+2021-01-06 15:24:13.679  INFO 17448 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 15:24:13.689  INFO 17448 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-06 15:24:13.819  INFO 17448 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[68, {}]}
+2021-01-06 15:24:13.821  INFO 17448 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : blog :: commentList
+2021-01-06 15:25:40.054  INFO 16312 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on PC-202004211249 with PID 16312 (C:\Users\Administrator\Desktop\myblog-mybatis-master\target\classes started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-06 15:25:40.056  INFO 16312 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-01-06 15:25:42.380  INFO 16312 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 2.719 seconds (JVM running for 3.55)
+2021-01-06 15:25:46.789  INFO 16312 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-01-06 15:25:46.928  INFO 16312 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-01-06 15:25:47.322  INFO 16312 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 15:25:47.331  INFO 16312 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-06 15:25:48.758  INFO 16312 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[68, {}]}
+2021-01-06 15:25:48.799  INFO 16312 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : blog
+2021-01-06 15:25:49.051  INFO 16312 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 15:25:49.057  INFO 16312 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-06 15:25:49.245  INFO 16312 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[68, {}]}
+2021-01-06 15:25:49.248  INFO 16312 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : blog :: commentList
+2021-01-06 15:26:03.583  INFO 16112 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on PC-202004211249 with PID 16112 (C:\Users\Administrator\Desktop\myblog-mybatis-master\target\classes started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-06 15:26:03.585  INFO 16112 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-01-06 15:26:05.793  INFO 16112 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 2.639 seconds (JVM running for 3.226)
+2021-01-06 15:26:13.123  INFO 16112 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-01-06 15:26:13.263  INFO 16112 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-01-06 15:26:13.550  INFO 16112 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 15:26:13.557  INFO 16112 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-06 15:26:15.167  INFO 16112 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[68, {}]}
+2021-01-06 15:26:15.208  INFO 16112 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Result : blog
+2021-01-06 15:26:15.452  INFO 16112 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 15:26:15.456  INFO 16112 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-06 15:26:15.605  INFO 16112 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[68, {}]}
+2021-01-06 15:26:15.608  INFO 16112 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : blog :: commentList
+2021-01-06 15:26:58.272  INFO 21040 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on PC-202004211249 with PID 21040 (C:\Users\Administrator\Desktop\myblog-mybatis-master\target\classes started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-06 15:26:58.277  INFO 21040 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-01-06 15:27:01.108  INFO 21040 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 3.363 seconds (JVM running for 4.048)
+2021-01-06 15:27:09.834  INFO 21040 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-01-06 15:27:09.978  INFO 21040 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-01-06 15:27:10.277  INFO 21040 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 15:27:10.282  INFO 21040 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-06 15:27:11.781  INFO 21040 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[68, {}]}
+2021-01-06 15:27:11.813  INFO 21040 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Result : blog
+2021-01-06 15:27:12.052  INFO 21040 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 15:27:12.057  INFO 21040 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-06 15:27:12.215  INFO 21040 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[68, {}]}
+2021-01-06 15:27:12.223  INFO 21040 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : blog :: commentList
+2021-01-06 15:28:04.587  INFO 21040 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/66', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[66, {}]}
+2021-01-06 15:28:04.605  INFO 21040 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : blog
+2021-01-06 15:28:04.865  INFO 21040 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 15:28:04.870  INFO 21040 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-06 15:28:10.892  INFO 21040 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[68, {}]}
+2021-01-06 15:28:10.904  INFO 21040 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Result : blog
+2021-01-06 15:28:11.208  INFO 21040 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 15:28:11.213  INFO 21040 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-06 15:28:11.273  INFO 21040 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/68', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[68, {}]}
+2021-01-06 15:28:11.275  INFO 21040 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : blog :: commentList
+2021-01-06 15:30:50.086  INFO 7052 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on PC-202004211249 with PID 7052 (C:\Users\Administrator\Desktop\myblog-mybatis-master\target\classes started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-06 15:30:50.089  INFO 7052 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-01-06 15:30:52.445  INFO 7052 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 2.824 seconds (JVM running for 3.854)
+2021-01-06 15:30:58.322  INFO 7052 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='127.0.0.1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-01-06 15:30:58.471  INFO 7052 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-01-06 15:30:58.841  INFO 7052 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 15:30:58.846  INFO 7052 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-06 15:31:01.057  INFO 7052 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/68', ip='127.0.0.1', classMethod='com.star.controller.IndexController.blog', args=[68, {}]}
+2021-01-06 15:31:01.099  INFO 7052 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : blog
+2021-01-06 15:31:01.523  INFO 7052 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='127.0.0.1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 15:31:01.528  INFO 7052 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-01-06 15:31:01.630  INFO 7052 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/68', ip='127.0.0.1', classMethod='com.star.controller.CommentController.comments', args=[68, {}]}
+2021-01-06 15:31:01.637  INFO 7052 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : blog :: commentList
+2021-01-06 16:37:41.119  INFO 21884 --- [main] com.star.MyblogApplicationTests          : Starting MyblogApplicationTests on PC-202004211249 with PID 21884 (started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-06 16:37:41.121  INFO 21884 --- [main] com.star.MyblogApplicationTests          : The following profiles are active: pro
+2021-01-06 16:37:44.071  INFO 21884 --- [main] com.star.MyblogApplicationTests          : Started MyblogApplicationTests in 3.885 seconds (JVM running for 4.874)
+2021-01-06 17:42:18.498  INFO 23992 --- [main] com.star.MyblogApplicationTests          : Starting MyblogApplicationTests on PC-202004211249 with PID 23992 (started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-06 17:42:18.500  INFO 23992 --- [main] com.star.MyblogApplicationTests          : The following profiles are active: pro
+2021-01-06 17:42:23.456  INFO 23992 --- [main] com.star.MyblogApplicationTests          : Started MyblogApplicationTests in 5.619 seconds (JVM running for 6.685)
+2021-01-06 17:50:49.999  INFO 2388 --- [main] com.star.MyblogApplicationTests          : Starting MyblogApplicationTests on PC-202004211249 with PID 2388 (started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-06 17:50:50.000  INFO 2388 --- [main] com.star.MyblogApplicationTests          : The following profiles are active: pro
+2021-01-06 17:50:52.719  INFO 2388 --- [main] com.star.MyblogApplicationTests          : Started MyblogApplicationTests in 3.088 seconds (JVM running for 3.806)
+2021-01-06 17:57:38.542  INFO 14736 --- [main] com.star.MyblogApplicationTests          : Starting MyblogApplicationTests on PC-202004211249 with PID 14736 (started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-06 17:57:38.543  INFO 14736 --- [main] com.star.MyblogApplicationTests          : The following profiles are active: pro
+2021-01-06 17:57:41.643  INFO 14736 --- [main] com.star.MyblogApplicationTests          : Started MyblogApplicationTests in 3.493 seconds (JVM running for 4.206)
+2021-01-06 18:15:51.300  INFO 16248 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on PC-202004211249 with PID 16248 (C:\Users\Administrator\Desktop\myblog-mybatis-master\target\classes started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-06 18:15:51.302  INFO 16248 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-01-06 18:15:57.947  INFO 24116 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on PC-202004211249 with PID 24116 (C:\Users\Administrator\Desktop\myblog-mybatis-master\target\classes started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-06 18:15:57.949  INFO 24116 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-01-06 18:16:00.293  INFO 24116 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 2.689 seconds (JVM running for 3.299)
+2021-01-06 18:16:06.136  INFO 24116 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-01-06 18:16:06.347  INFO 24116 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : index
+2021-01-06 18:16:06.766  INFO 24116 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 18:18:03.898  WARN 24116 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m57s511ms852µs600ns).
+2021-01-06 18:18:03.903  INFO 24116 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-01-06 18:18:03.928  INFO 24116 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Result : index
+2021-01-06 18:18:03.929 ERROR 24116 --- [http-nio-8080-exec-8] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/footer/blogmessage，Exception : {}
+
+java.lang.NullPointerException: null
+	at com.star.controller.IndexController.blogMessage(IndexController.java:95)
+	at com.star.controller.IndexController$$FastClassBySpringCGLIB$$4b929c4b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.star.controller.IndexController$$EnhancerBySpringCGLIB$$d3079729.blogMessage(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+
+2021-01-06 18:18:03.930  WARN 24116 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2021-01-06 18:18:04.019  INFO 24116 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 18:18:04.022 ERROR 24116 --- [http-nio-8080-exec-10] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/footer/blogmessage，Exception : {}
+
+java.lang.NullPointerException: null
+	at com.star.controller.IndexController.blogMessage(IndexController.java:95)
+	at com.star.controller.IndexController$$FastClassBySpringCGLIB$$4b929c4b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.star.controller.IndexController$$EnhancerBySpringCGLIB$$d3079729.blogMessage(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+
+2021-01-06 18:18:04.023  WARN 24116 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2021-01-06 18:18:25.404  INFO 12496 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on PC-202004211249 with PID 12496 (C:\Users\Administrator\Desktop\myblog-mybatis-master\target\classes started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-06 18:18:25.405  INFO 12496 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-01-06 18:18:27.748  INFO 12496 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 2.686 seconds (JVM running for 3.314)
+2021-01-06 18:18:36.424  INFO 12496 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-01-06 18:18:36.618  INFO 12496 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-01-06 18:18:37.006  INFO 12496 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 18:18:37.018 ERROR 12496 --- [http-nio-8080-exec-8] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/footer/blogmessage，Exception : {}
+
+java.lang.NullPointerException: null
+	at com.star.controller.IndexController.blogMessage(IndexController.java:95)
+	at com.star.controller.IndexController$$FastClassBySpringCGLIB$$4b929c4b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.star.controller.IndexController$$EnhancerBySpringCGLIB$$a7e395f2.blogMessage(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+
+2021-01-06 18:18:37.020  WARN 12496 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2021-01-06 18:20:01.588  INFO 24508 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on PC-202004211249 with PID 24508 (C:\Users\Administrator\Desktop\myblog-mybatis-master\target\classes started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-06 18:20:01.590  INFO 24508 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-01-06 18:20:18.786  INFO 22272 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on PC-202004211249 with PID 22272 (C:\Users\Administrator\Desktop\myblog-mybatis-master\target\classes started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-06 18:20:18.788  INFO 22272 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-01-06 18:22:40.028  INFO 18668 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on PC-202004211249 with PID 18668 (C:\Users\Administrator\Desktop\myblog-mybatis-master\target\classes started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-06 18:22:40.030  INFO 18668 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-01-06 18:22:42.205  INFO 18668 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 2.47 seconds (JVM running for 2.986)
+2021-01-06 18:22:43.317  INFO 18668 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-01-06 18:22:43.484  INFO 18668 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-01-06 18:22:43.851  INFO 18668 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 18:22:43.859 ERROR 18668 --- [http-nio-8080-exec-8] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/footer/blogmessage，Exception : {}
+
+java.lang.NullPointerException: null
+	at com.star.controller.IndexController.blogMessage(IndexController.java:95)
+	at com.star.controller.IndexController$$FastClassBySpringCGLIB$$4b929c4b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.star.controller.IndexController$$EnhancerBySpringCGLIB$$68f2a4b8.blogMessage(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+
+2021-01-06 18:22:43.861  WARN 18668 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2021-01-06 18:28:12.398  INFO 2904 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on PC-202004211249 with PID 2904 (C:\Users\Administrator\Desktop\myblog-mybatis-master\target\classes started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-06 18:28:12.400  INFO 2904 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-01-06 18:28:14.604  INFO 2904 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 2.507 seconds (JVM running for 3.009)
+2021-01-06 18:28:20.033  INFO 2904 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-01-06 18:28:20.193  INFO 2904 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-01-06 18:28:20.563  INFO 2904 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 18:28:20.571 ERROR 2904 --- [http-nio-8080-exec-5] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/footer/blogmessage，Exception : {}
+
+java.lang.NullPointerException: null
+	at com.star.service.Impl.BlogServiceImpl.getBlogViewTotal(BlogServiceImpl.java:110)
+	at com.star.controller.IndexController.blogMessage(IndexController.java:95)
+	at com.star.controller.IndexController$$FastClassBySpringCGLIB$$4b929c4b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.star.controller.IndexController$$EnhancerBySpringCGLIB$$9fe86e64.blogMessage(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+
+2021-01-06 18:28:20.573  WARN 2904 --- [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2021-01-06 18:29:26.629  INFO 23812 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on PC-202004211249 with PID 23812 (C:\Users\Administrator\Desktop\myblog-mybatis-master\target\classes started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-06 18:29:26.631  INFO 23812 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-01-06 18:29:28.637  INFO 23812 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 2.319 seconds (JVM running for 2.804)
+2021-01-06 18:29:40.177  INFO 23812 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-01-06 18:29:40.355  INFO 23812 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-01-06 18:29:40.727  INFO 23812 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 18:29:40.738 ERROR 23812 --- [http-nio-8080-exec-8] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/footer/blogmessage，Exception : {}
+
+org.apache.ibatis.binding.BindingException: Mapper method 'com.star.dao.BlogDao.getBlogViewTotal attempted to return null from a method with a primitive return type (int).
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:102)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:144)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy82.getBlogViewTotal(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy83.getBlogViewTotal(Unknown Source)
+	at com.star.service.Impl.BlogServiceImpl.getBlogViewTotal(BlogServiceImpl.java:110)
+	at com.star.controller.IndexController.blogMessage(IndexController.java:95)
+	at com.star.controller.IndexController$$FastClassBySpringCGLIB$$4b929c4b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.star.controller.IndexController$$EnhancerBySpringCGLIB$$3a1aa01e.blogMessage(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+
+2021-01-06 18:29:40.744  WARN 23812 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.apache.ibatis.binding.BindingException: Mapper method 'com.star.dao.BlogDao.getBlogViewTotal attempted to return null from a method with a primitive return type (int).]
+2021-01-06 18:30:43.262  INFO 23340 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on PC-202004211249 with PID 23340 (C:\Users\Administrator\Desktop\myblog-mybatis-master\target\classes started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-06 18:30:43.264  INFO 23340 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-01-06 18:30:45.457  INFO 23340 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 2.536 seconds (JVM running for 3.06)
+2021-01-06 18:30:51.753  INFO 23340 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-01-06 18:30:51.965  INFO 23340 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-01-06 18:30:52.342  INFO 23340 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 18:30:52.355 ERROR 23340 --- [http-nio-8080-exec-8] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/footer/blogmessage，Exception : {}
+
+org.apache.ibatis.binding.BindingException: Mapper method 'com.star.dao.BlogDao.getBlogViewTotal attempted to return null from a method with a primitive return type (int).
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:102)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:144)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy82.getBlogViewTotal(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy83.getBlogViewTotal(Unknown Source)
+	at com.star.service.Impl.BlogServiceImpl.getBlogViewTotal(BlogServiceImpl.java:110)
+	at com.star.controller.IndexController.blogMessage(IndexController.java:95)
+	at com.star.controller.IndexController$$FastClassBySpringCGLIB$$4b929c4b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.star.controller.IndexController$$EnhancerBySpringCGLIB$$5b1c75c2.blogMessage(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+
+2021-01-06 18:30:52.356  WARN 23340 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.apache.ibatis.binding.BindingException: Mapper method 'com.star.dao.BlogDao.getBlogViewTotal attempted to return null from a method with a primitive return type (int).]
+2021-01-06 18:40:37.869  INFO 20692 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on PC-202004211249 with PID 20692 (C:\Users\Administrator\Desktop\myblog-mybatis-master\target\classes started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-06 18:40:37.869  INFO 20692 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-01-06 18:40:39.966  INFO 20692 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 2.395 seconds (JVM running for 2.947)
+2021-01-06 18:40:41.900  INFO 20692 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-01-06 18:40:42.113  INFO 20692 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-01-06 18:40:42.511  INFO 20692 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 18:40:42.521 ERROR 20692 --- [http-nio-8080-exec-8] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/footer/blogmessage，Exception : {}
+
+org.apache.ibatis.binding.BindingException: Mapper method 'com.star.dao.BlogDao.getBlogViewTotal attempted to return null from a method with a primitive return type (int).
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:102)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:144)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy82.getBlogViewTotal(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy83.getBlogViewTotal(Unknown Source)
+	at com.star.service.Impl.BlogServiceImpl.getBlogViewTotal(BlogServiceImpl.java:110)
+	at com.star.controller.IndexController.blogMessage(IndexController.java:95)
+	at com.star.controller.IndexController$$FastClassBySpringCGLIB$$4b929c4b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.star.controller.IndexController$$EnhancerBySpringCGLIB$$7b1c72ea.blogMessage(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+
+2021-01-06 18:40:42.522  WARN 20692 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.apache.ibatis.binding.BindingException: Mapper method 'com.star.dao.BlogDao.getBlogViewTotal attempted to return null from a method with a primitive return type (int).]
+2021-01-06 18:40:45.653  INFO 20692 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.TypeShowController.types', args=[1, -1, {}]}
+2021-01-06 18:40:45.661 ERROR 20692 --- [http-nio-8080-exec-1] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/types/-1，Exception : {}
+
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:458)
+	at com.star.controller.TypeShowController.types(TypeShowController.java:37)
+	at com.star.controller.TypeShowController$$FastClassBySpringCGLIB$$d1cb58f6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.star.controller.TypeShowController$$EnhancerBySpringCGLIB$$2006bcb.types(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+
+2021-01-06 18:40:45.662  WARN 20692 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0]
+2021-01-06 18:40:51.845  INFO 20692 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-01-06 18:40:51.850  INFO 20692 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Result : index
+2021-01-06 18:40:51.905  INFO 20692 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 18:40:51.909 ERROR 20692 --- [http-nio-8080-exec-9] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/footer/blogmessage，Exception : {}
+
+org.apache.ibatis.binding.BindingException: Mapper method 'com.star.dao.BlogDao.getBlogViewTotal attempted to return null from a method with a primitive return type (int).
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:102)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:144)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy82.getBlogViewTotal(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy83.getBlogViewTotal(Unknown Source)
+	at com.star.service.Impl.BlogServiceImpl.getBlogViewTotal(BlogServiceImpl.java:110)
+	at com.star.controller.IndexController.blogMessage(IndexController.java:95)
+	at com.star.controller.IndexController$$FastClassBySpringCGLIB$$4b929c4b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.star.controller.IndexController$$EnhancerBySpringCGLIB$$7b1c72ea.blogMessage(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+
+2021-01-06 18:40:51.910  WARN 20692 --- [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.apache.ibatis.binding.BindingException: Mapper method 'com.star.dao.BlogDao.getBlogViewTotal attempted to return null from a method with a primitive return type (int).]
+2021-01-06 18:44:18.353  INFO 24484 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on PC-202004211249 with PID 24484 (C:\Users\Administrator\Desktop\myblog-mybatis-master\target\classes started by Administrator in C:\Users\Administrator\Desktop\myblog-mybatis-master)
+2021-01-06 18:44:18.354  INFO 24484 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-01-06 18:44:20.520  INFO 24484 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 2.535 seconds (JVM running for 3.092)
+2021-01-06 18:44:26.537  INFO 24484 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-01-06 18:44:26.706  INFO 24484 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-01-06 18:44:27.079  INFO 24484 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-01-06 18:44:27.088 ERROR 24484 --- [http-nio-8080-exec-8] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/footer/blogmessage，Exception : {}
+
+org.apache.ibatis.binding.BindingException: Mapper method 'com.star.dao.BlogDao.getBlogViewTotal attempted to return null from a method with a primitive return type (int).
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:102)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:144)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy82.getBlogViewTotal(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy83.getBlogViewTotal(Unknown Source)
+	at com.star.service.Impl.BlogServiceImpl.getBlogViewTotal(BlogServiceImpl.java:110)
+	at com.star.controller.IndexController.blogMessage(IndexController.java:95)
+	at com.star.controller.IndexController$$FastClassBySpringCGLIB$$4b929c4b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:47)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.star.controller.IndexController$$EnhancerBySpringCGLIB$$58a3542a.blogMessage(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+
+2021-01-06 18:44:27.089  WARN 24484 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.apache.ibatis.binding.BindingException: Mapper method 'com.star.dao.BlogDao.getBlogViewTotal attempted to return null from a method with a primitive return type (int).]

@@ -20,7 +20,7 @@
 <nav class="gird-header">
   <div class="ui container">
     <div class="ui inverted secondary stackable menu">
-      <h2 class="ui olive header item" style="font-family: STSong">ONESTAR</h2>
+      <h2 class="ui olive header item" style="font-family: STSong">magua</h2>
       <!--<div class="right m-item item m-mobile-hide">-->
         <a href="#" th:href="@{/}" class="m-item item m-mobile-hide "><i class="home icon"></i>首页</a>
         <a href="#" th:href="@{/types/-1}" class="m-item item m-mobile-hide"><i class="clone outline icon"></i>分类</a>
@@ -483,7 +483,7 @@ h5,h6{font-size:1em;}
       <div class="ui middle aligned stackable grid">
         <div class="nine wide column">
           <ui class="list">
-            <li>作者：<span th:text="${blog.nickname}">ONESTAR</span><a href="#" th:href="@{/about}" target="_blank">（联系作者）</a></li>
+            <li>作者：<span th:text="${blog.nickname}">magua</span><a href="#" th:href="@{/about}" target="_blank">（联系作者）</a></li>
             <li>发表时间：<span th:text="${#dates.format(blog.updateTime,'yyyy-MM-dd HH:mm')}">2020-01-02 09:08</span></li>
             <li>版权声明：自由转载-非商用-非衍生-保持署名（创意共享3.0许可证）</li>
             <li>转载声明：如果是转载栈主转载的文章，请附上原文链接</li>
@@ -493,8 +493,8 @@ h5,h6{font-size:1em;}
 
         <!--微信公众号-->
         <div class="seven wide column">
-          <img src="../static/images/oneStar1.jpg" th:src="@{/images/oneStar1.jpg}" alt="" class="ui right floated rounded bordered image" style="width: 707px">
-        </div>
+          <img src="../static/images/cjml.jpg" th:src="@{/images/cjml.jpg}" alt="" class="ui right floated rounded bordered image" style="width: 707px">
+        </div>481269335
       </div>
     </div>
     <div  class="ui bottom attached segment" th:if="${blog.commentabled}">
@@ -622,8 +622,8 @@ h5,h6{font-size:1em;}
         <!--</div>-->
         <!--</div>-->
         <div class="ui inverted link list">
-          <div href="#" class="m-text-thin">Email：onestarlr@hotmail.com</div>
-          <div href="#" class="m-text-thin">QQ：316392836</div>
+          <div href="#" class="m-text-thin">Email：481269335@qq.com</div>
+          <div href="#" class="m-text-thin">QQ：481269335</div>
         </div>
       </div>
 
@@ -632,7 +632,7 @@ h5,h6{font-size:1em;}
           <div class="item">
             <!--微信二维码-->
             <div style="font-size: large;font-weight: bold" class="ui inverted m-text-thin m-text-spaced " >关注公众号</div>
-            <img src="../static/images/oneStar.jpg" th:src="@{/images/oneStar.jpg}"  class="ui m-margin-top rounded image" alt="" style="width: 110px">
+            <img src="../static/images/wx.jpg" th:src="@{/images/wx.jpg}"  class="ui m-margin-top rounded image" alt="" style="width: 110px">
           </div>
         </div>
       </div>
@@ -642,13 +642,13 @@ h5,h6{font-size:1em;}
           <div class="item">
             <!--微信二维码-->
             <div style="font-size: large;font-weight: bold" class="ui inverted m-text-thin m-text-spaced " >问题交流（QQ群）</div>
-            <img src="../static/images/QQ-question.jpg" th:src="@{/images/QQ-question.jpg}"  class="ui m-margin-top rounded image" alt="" style="width: 110px">
+            <img src="../static/images/qqq.jpg" th:src="@{/images/qqq.jpg}"  class="ui m-margin-top rounded image" alt="" style="width: 110px">
           </div>
         </div>
       </div>
       <!--博客运行时间统计-->
       <div class="four wide column">
-        <div style="font-size: large;font-weight: bold" class="ui inverted  m-text-thin m-text-spaced m-margin-top">客栈信息</div>
+        <div style="font-size: large;font-weight: bold" class="ui inverted  m-text-thin m-text-spaced m-margin-top">基本信息</div>
         <!--<p id="htmer_time" class="item m-text-thin"></p>-->
         <div id="blog-message">
           <div class="ui inverted link list" style="align-content: center;margin-top: 10px" th:fragment="blogMessage">

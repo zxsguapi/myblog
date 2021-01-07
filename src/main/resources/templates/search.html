@@ -47,7 +47,7 @@
   <div class="m-bg-class_cover">
     <div class="ui container" style="position: relative ;bottom: -540px;">
       <div class="m-font-size-title m-right-bottom" align="center" style="font-family:'STXingkai'">搜索结果</div>
-      <div class="m-font-size-text-init-title m-margin-top" align="center">不会搜就不要搜！</div>
+      <div class="m-font-size-text-init-title m-margin-top" align="center">不会搜就不要搜</div>
     </div>
   </div>
 </div>
@@ -71,8 +71,8 @@
         <div class="ui padded vertical segment m-padded-tb-large" th:each="blog : ${pageInfo.list}">
           <div class="ui middle aligned mobile reversed stackable grid" >
             <div class="eleven wide column">
-              <h3 class="ui header" ><a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank" class="m-black m-title-font" th:text="${blog.title}">大圣，此去欲何?</a></h3>
-              <p class="m-text m-margin-top-max" th:text="|${blog.description}......|">戴上金箍，没法爱你；放下金箍，没法保护你。我知道上天不会给我第二次机会，曾经我们说好的永远，原来也仅仅只有，十二画，而已。“大圣，此去欲何?”“踏南天，碎凌霄。”“若一去不回……”“便一去不回” 其实很多时候，我们都是有机会的，最后真正放弃的，是我们自己。......</p>
+              <h3 class="ui header" ><a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank" class="m-black m-title-font" th:text="${blog.title}">Test</a></h3>
+              <p class="m-text m-margin-top-max" th:text="|${blog.description}......|">TestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTest</p>
               <div class="ui grid m-margin-top-max">
                 <div class="eleven wide column">
                   <div class="ui mini horizontal link list">
@@ -164,7 +164,7 @@
       </div>
       <!--博客运行时间统计-->
       <div class="four wide column">
-        <div style="font-size: large;font-weight: bold" class="ui inverted  m-text-thin m-text-spaced m-margin-top">客栈信息</div>
+        <div style="font-size: large;font-weight: bold" class="ui inverted  m-text-thin m-text-spaced m-margin-top">基本信息</div>
         <!--<p id="htmer_time" class="item m-text-thin"></p>-->
         <div id="blog-message">
           <div class="ui inverted link list" style="align-content: center;margin-top: 10px" th:fragment="blogMessage">
@@ -185,7 +185,7 @@
       </div>
     </div>
     <div class="ui inverted section divider"></div>
-    <div style="color: #F08047;margin-top: -18px" class="ui inverted m-text-thin m-text-spaced">我的客栈已营业：<span id="htmer_time" class="item m-text-thin"></span> (*๓´╰╯`๓)</div>
+    <div style="color: #F08047;margin-top: -18px" class="ui inverted m-text-thin m-text-spaced">已营业：<span id="htmer_time" class="item m-text-thin"></span> (*๓´╰╯`๓)</div>
     <a rel="nofollow" href="http://www.beian.miit.gov.cn" target="_blank">赣ICP备20004408号-1</a>
   </div>
   </div>
